@@ -1,5 +1,5 @@
 from fastapi.testclient import TestClient
-from main import api   # main.py ফাইলের ভেতরে FastAPI instance এর নাম api
+from main import api   
 
 client = TestClient(api)
 
